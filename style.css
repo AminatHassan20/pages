@@ -1,0 +1,55 @@
+body {
+  background-color: whitesmoke;
+}
+.page {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 200px;
+  box-sizing: border-box;
+  line-height: 1;
+  align-content: flex-end;
+  margin-left: 200px;
+}
+button {
+  color: green;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  margin: 15px;
+  border-radius: 100%;
+  border: 1px solid green;
+  background: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+  color: black;
+}
+
+a {
+  height: 36px;
+  width: 36px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  background: green;
+  color: white;
+  border-radius: 50%;
+  margin: 15px;
+}
+.id {
+  height: 36px;
+  width: 36px;
+  background-color: green;
+}
